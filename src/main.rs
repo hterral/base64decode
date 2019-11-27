@@ -38,6 +38,7 @@ fn main() {
     std::io::stdin().read_line(&mut input).unwrap();
     println!("Input: {}", input);
  
+    
     let output = base64decode(input);
     println!("Output: {}", output);
 }
